@@ -1,0 +1,6 @@
+<h1>Student info and Ducks they have!</h1>
+<p>Student Name:<%=  @student.name %></p>
+<p>Student's Ducks:</p>
+<% @student.ducks.each do |duck| %>
+<p><%= duck.name %></p>
+<% end%>
